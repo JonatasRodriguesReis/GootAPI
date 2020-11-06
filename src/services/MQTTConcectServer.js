@@ -4,9 +4,9 @@ const mqtt = require('mqtt');
 class MqttHandler {
   constructor() {
     this.mqttClient = null;
-    this.host = 'mqtt://broker.hivemq.com';
-    this.username = 'groot'; // mqtt credentials if these are needed to connect
-    this.password = 'groot123';
+    this.host = 'mqtt://hairdresser.cloudmqtt.com:15599';
+    this.username = 'bhajbicx'; // mqtt credentials if these are needed to connect
+    this.password = 'ketMsYXDO5yB';
   }
   
   connect() {
